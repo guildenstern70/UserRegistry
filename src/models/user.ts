@@ -6,10 +6,11 @@
  */
 
 export type User = {
-  id: string;
+  id?: string;
   username: string;
   name: string;
   surname: string;
+  password: string;
   creation_date: object;
   group: string;
 }
